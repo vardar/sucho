@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monitor Sucha</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  <style>
+    
+    .align_right {text-align: right;}
+    #site_title {float: left;}
+    #home_button {float: right;}
+    #header {padding-left: 5px; padding-right: 5px;}
+    h1 {color: #A7C1D5;}
+    h2 {color: #A7C1D5;}
+    h3 {color: #A7C1D5;}
+    #cv {float: left;}
+    #thanks {float: right;}
+    #footer {padding-left: 5px; padding-right: 5px;}
+    body {width: 1350px; background-color: #304964;}
+    .menu_item {float: left; margin: 5px;}
+    div.menu_item img {width: 304px; height: 195px;}
+    .container {clear: both;}
+    .info_text {float: left; max-width: 70%; text-align: justify; padding-left: 5px; padding-top: 20px; font-family: sans-serif; color: #A7C1D5;}
+    #info_img img {float: right; width: 282px; height: 452px; padding-right: 28px; padding-top: 50px}
+    a:link {color: #A7C1D5;}
+    a:visited {color: #A7C1D5;}
+    a:hover {color: #E3E6E9;}
+    hr {width: 100%; float: left;}
+    .headings {font-weight:bold; color: #EAEED8}
+  </style>
+</head>
+<body>
+  <div id="header">
+    <div id="site_title">
+      <h1><font face="trebuchet ms">SLOVENSKÝ MONITOR SUCHA</font></h1>
+    </div>    
+    <div id="home_button">    
+      <h1><font face="trebuchet ms"><a href="home">domov</a></font></h1>
+    </div>  	
+  </div>
+  <div class="container">
+  <hr>
+    <%= yield %>
+  
+    
