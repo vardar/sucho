@@ -4,9 +4,7 @@
 #site_title {
   float: left;
 }
-#home_button {
-  float: right;
-}
+
 #header {
   padding-left: 5px; 
   padding-right: 5px;
@@ -60,6 +58,8 @@ div.menu_item img:hover {
 a:link {color: #A7C1D5;}
 a:visited {color: #A7C1D5;}
 a:hover {color: #E3E6E9;}
+
+a {text-decoration: none;}
 
 hr {
   width: 100%; 
