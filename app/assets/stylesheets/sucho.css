@@ -109,3 +109,7 @@ hr {
 #thumb {cursor: pointer;}
 
 .close_button {cursor: pointer;}
+
+#map {
+ padding-left: 5px;
+ }
