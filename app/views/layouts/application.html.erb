@@ -5,21 +5,7 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $("#thumb").click(function () {
-        $("#overlay").fadeIn("fast");
-        $("#overlay_div").fadeIn("fast")
-      })
-      $(".close_button").click(function () {
-        $("#overlay").fadeOut("fast");
-        $("#overlay_div").fadeOut("fast")
-      })
-    })
-  </script>
-  
+  <script src="./jquery-1.10.2.js"></script>
 </head>
 <body>
   <div id="header">
