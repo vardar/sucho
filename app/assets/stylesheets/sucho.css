@@ -106,10 +106,18 @@ hr {
   display: none;
 }
 
-#thumb {cursor: pointer;}
+#thumb {
+  cursor: pointer;
+}
 
-.close_button {cursor: pointer;}
+.close_button {
+  cursor: pointer;
+}
 
 #map {
  padding-left: 5px;
- }
+}
+
+#title {
+  font-family: "trebuchet ms"
+}
