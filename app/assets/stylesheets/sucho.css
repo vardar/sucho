@@ -69,7 +69,9 @@ a:link {color: #A7C1D5;}
 a:visited {color: #A7C1D5;}
 a:hover {color: #E3E6E9;}
 
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
 hr {
   width: 100%; 
