@@ -13,7 +13,7 @@ Sucho::Application.routes.draw do
 
      get 'home' => 'pages#home'
 
-     get 'actual_weather' => 'pages#actual_weather'
+     
 
      get 'citizens' => 'pages#citizens'
 
@@ -28,6 +28,8 @@ Sucho::Application.routes.draw do
      get 'cv' => 'pages#cv'
 
      get 'thanks' => 'pages#thanks'
+
+     resources :actual_weathers
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 

@@ -1,0 +1,22 @@
+
+
+
+<div class="info_text">
+  <p class="headings">
+  <%=@actual_weather.title%>
+  </p>
+  <p>
+    <%=@actual_weather.text%>
+  </p>
+  <%=link_to "novy zaznam",new_actual_weather_path%>
+</div>
+<div class="active_img" id="thumb">
+  <img src="/mapa.jpg" />
+</div>
+
+<div id="overlay">
+</div>
+
+<div id="overlay_div" >
+  <img src="/mapa.jpg" class="close_button"/>
+</div>
