@@ -92,7 +92,7 @@ hr {
 .citizens_img_up img {
   float: left;
   width: 282px;
-  height: 200px;
+  height: 180px;
   margin-left: 90px;
   margin-top: 100px;
   }
@@ -100,7 +100,15 @@ hr {
 .citizens_img img {
   float: left;
   width: 282px;
-  height: 200px;
+  height: 180px;
   margin-left: 90px;
-  margin-top: 30px;
+  margin-top: 60px;
   }
+
+.info_text_civildefense {
+  float: left; 
+  text-align: left; 
+  padding-left: 5px; 
+  padding-top: 20px; 
+  font-family: sans-serif; 
+  color: #A7C1D5;
